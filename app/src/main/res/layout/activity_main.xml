@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#336ac4"
+    tools:context="com.nothing_really.MainActivity">
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="316dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="518dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1346926195307365/2007570992"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titleMainActivity"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <ImageButton
+        android:id="@+id/gift"
+        android:layout_width="233dp"
+        android:layout_height="243dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="224dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/image"
+        android:focusable="true"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gift" />
+
+    <ImageView
+        android:id="@+id/hand"
+        android:layout_width="88dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="158dp"
+        android:clickable="true"
+        android:contentDescription="@string/click_here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gift"
+        app:srcCompat="@drawable/hand" />
+
+    <TextView
+        android:id="@+id/clickHere"
+        android:layout_width="198dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/click_here"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hand" />
+
+
+</android.support.constraint.ConstraintLayout>

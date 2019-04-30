@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nothing, Really!</string>
+    <string name="image">Image</string>
+    <string name="click_here">Click Here</string>
+    <string name="empty"></string>
+    <string name="titleMainActivity">A Gift For You </string>
+    <string name="banner_ad_unit_id">ca-app-pub-8505022249064381~6844840999</string>
+    <string name="send_us_mail">send us mail</string>
+</resources>

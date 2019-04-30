@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "334202897501",
+    "firebase_url": "https://nothingreally-6205c.firebaseio.com",
+    "project_id": "nothingreally-6205c",
+    "storage_bucket": "nothingreally-6205c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334202897501:android:e2e6e1203ea28ac1",
+        "android_client_info": {
+          "package_name": "com.nothing_really"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334202897501-ikg0hl7pdced01eru2h4qralic5g8bjn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nothing_really",
+            "certificate_hash": "6fc175a686a3270e96d29e4960bb51b4e987e933"
+          }
+        },
+        {
+          "client_id": "334202897501-7idhusn8hja7gftomu7hngogu8oumknu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRK1Srx0nl4QXaFOLw37BtSHNYkv25FHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334202897501-7idhusn8hja7gftomu7hngogu8oumknu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
